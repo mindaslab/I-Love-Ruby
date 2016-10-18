@@ -1,3 +1,23 @@
 img.book-cover{
   max-height: 250px;
 }
+
+body{
+  background: #77f;
+}
+
+.box{
+  background: white;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.content{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
