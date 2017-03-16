@@ -12,15 +12,20 @@ h2.author {
 
 .sofa {
   position: fixed;
-  bottom: 30px; }
+  bottom: 30px;
+  background: black; }
   .sofa img {
-    width: 35%; }
+    width: 35%;
+    max-height: 650px;
+    margin-left: auto;
+    margin-right: auto; }
 
 .titles {
   margin-top: 80px; }
 
 .downloads {
-  margin-top: 140px; }
+  margin-top: 140px;
+  margin-bottom: 250px; }
 
 .btn-spacer {
   height: 50px; }
