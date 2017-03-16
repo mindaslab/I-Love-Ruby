@@ -15,7 +15,4 @@
 /.sass-cache
 /.cache
 
-=======
->>>>>>> e9b7664e68750aed1340a71b56aaf425cd70464c
-# Ignore .DS_store file
 .DS_Store

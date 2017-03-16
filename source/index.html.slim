@@ -10,9 +10,13 @@ title: I Love Ruby - Free Ruby programming book
 /     li = link_to "What people say", "#"
 .downloads
   .row
-    .col-md-6.col-md-offset-3
+    .col-md-6.col-md-offset-3.hidden-sm.hidden-xs
       .row
         .col-md-6.text-right = partial "download_button"
         .col-md-6.text-left = partial "old_version_download_button"
+    .hidden-lg.hidden-md
+      .col-sm-12 = partial "download_button"
+      .btn-spacer
+      .col-sm-12 = partial "old_version_download_button"
 .sofa
   img src="images/sofa.png"
